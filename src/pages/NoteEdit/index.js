@@ -213,6 +213,7 @@ const NoteEdit = ({ route }) => {
                       onPress={() =>
                         navigation.navigate('Feeling', {
                           date: date,
+                          who: who,
                         })
                       }
                     >
